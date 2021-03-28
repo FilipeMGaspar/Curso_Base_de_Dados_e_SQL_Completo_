@@ -2,12 +2,12 @@
 
 Cliente
 
-Nome 
-CPF
-Email
-Telefone
-Endereco
-Sexo
+Nome - CARACTER(30)
+CPF - NUMERICO(11)
+Email - CARCATER(30)
+Telefone - CARACTER(30)
+Endereco - CARCATER(100)
+Sexo - CARACTER(1)
 
 /* PROCESSOS DE MODELAGEM */
 
