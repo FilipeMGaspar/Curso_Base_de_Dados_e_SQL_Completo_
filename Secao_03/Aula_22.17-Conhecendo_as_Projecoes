@@ -2,6 +2,8 @@
 seleção projeção e junção
 */
 
+SELECT NOW() AS DATA_HORA, 'FILIPE MAFRA' AS PROFESSOR;
+
 SELECT NOW();
 
 SELECT 'FILIPE MAFRA';
