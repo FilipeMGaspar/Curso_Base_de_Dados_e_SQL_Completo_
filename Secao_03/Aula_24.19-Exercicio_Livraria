@@ -39,10 +39,10 @@ As queries são as seguintes:
 	
  */
  
- /* Criação da Base de Dados */
- 
+ /* Criação da Base de Dados */ 
  CREATE DATABASE IF NOT EXISTS LIVRARIA;
  
- /*  */
+ /* Criação da tabela */ 
+ CREATE TABLE IF NOT EXISTS LIVROS;
  
  
