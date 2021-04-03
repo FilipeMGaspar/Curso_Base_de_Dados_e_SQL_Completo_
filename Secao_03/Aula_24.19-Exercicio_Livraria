@@ -38,3 +38,11 @@ As queries são as seguintes:
 	ANO PIBLICACAO  
 	
  */
+ 
+ /* Criação da Base de Dados */
+ 
+ CREATE DATABASE IF NOT EXISTS LIVRARIA;
+ 
+ /*  */
+ 
+ 
