@@ -59,14 +59,14 @@ As queries são as seguintes:
  
  INSERT INTO LIVROS (NOME_DO_LIVRO, NOME_DO_AUTOR, SEXO_DO_AUTOR, NUMERO_DE_PAGINAS,
  NOME_DA_EDITORA, VALOR_DO_LIVRO, UF_DA_EDITORA, ANO_PUBLICACAO) VALUES
- ('Cavaleiro Real','Ana Claudia',465,'Atlas'),
- ('SQL para leigos','João Nunes',450,'Addison'),
- ('Receitas Caseiras','Celia Tavares',210,'Atlas'),
- ('Pessoas Efetivas','Eduardo Santos',390,'Beta'),
- ('Habitos Saudáveis','Eduardo Santos',630,'Beta'),
- ('A Casa Marrom','Hermes Macedo',250,'Bubba'),
- ('Estacio Querido','Geraldo Francisco'310,'Insignia',),
- ('Pra sempre amigas','Leda Silva',510,'Insignia'),
- ('Copas Inesqueciveis','Marco Alcantara',200,'Larson'),
- ('O poder da mente','Clara Mafra',120,'Continital');
+ ('Cavaleiro Real','Ana Claudia',465,'Atlas',49.9,'RJ'),
+ ('SQL para leigos','João Nunes',450,'Addison',98,'SP'),
+ ('Receitas Caseiras','Celia Tavares',210,'Atlas',45,'RJ'),
+ ('Pessoas Efetivas','Eduardo Santos',390,'Beta',78.99.'RJ'),
+ ('Habitos Saudáveis','Eduardo Santos',630,'Beta',150.98,'RJ'),
+ ('A Casa Marrom','Hermes Macedo',250,'Bubba',60,'MG'),
+ ('Estacio Querido','Geraldo Francisco'310,'Insignia',100,'ES'),
+ ('Pra sempre amigas','Leda Silva',510,'Insignia',78.98,'ES'),
+ ('Copas Inesqueciveis','Marco Alcantara',200,'Larson',130.98,'RS'),
+ ('O poder da mente','Clara Mafra',120,'Continital',56.58,'RS');
  
