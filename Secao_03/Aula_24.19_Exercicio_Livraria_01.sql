@@ -33,8 +33,7 @@ USE LIVRARIA;
  ('Copas Inesqueciveis','Marco Alcantara','MASCULINO',200,'Larson',130.98,'RS',2018),
  ('O poder da mente','Clara Mafra','FEMININO',120,'Continital',56.58,'RS',2017);
  
-  /* Queries á tabela LIVROS */
- 
+/* Queries á tabela LIVROS */
  /* Trazer todos os dados */
  SELECT * FROM LIVROS;
  
