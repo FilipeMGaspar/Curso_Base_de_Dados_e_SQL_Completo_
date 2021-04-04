@@ -80,4 +80,4 @@ As queries são as seguintes:
  SELECT NOME_DO_LIVRO, NOME_DA_EDITORA FROM LIVROS;
  
  /*Trazer o nome do livro e a UF dos livros publicados por autores do sexo masculino.*/
- 
+ SELECT NOME_DO_LIVRO, UF_DA_EDITORA FROM LIVROS WHERE SEXO_DO_AUTOR = 'MASCULINO';
