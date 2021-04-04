@@ -42,6 +42,9 @@ As queries são as seguintes:
  /* Criação da Base de Dados */ 
  CREATE DATABASE IF NOT EXISTS LIVRARIA;
  
+ /*Selecionar a base de dados a utilizar */
+ USE LIVRARIA;
+ 
  /* Criação da tabela */ 
  CREATE TABLE IF NOT EXISTS LIVROS(
 	NOME_DO_LIVRO VARCHAR(30),
@@ -54,5 +57,8 @@ As queries são as seguintes:
 	ANO_PUBLICACAO INT
  );
  
- 
+ INSERT INTO LIVROS (NOME_DO_LIVRO, NOME_DO_AUTOR, SEXO_DO_AUTOR, 
+ NUMERO_DE_PAGINAS, NOME_DA_EDITORA, VALOR_DO_LIVRO,
+ UF_DA_EDITORA, ANO_PUBLICACAO) VALUES
+ ();
  
