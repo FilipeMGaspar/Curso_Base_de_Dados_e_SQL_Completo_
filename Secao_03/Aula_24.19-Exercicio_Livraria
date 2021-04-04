@@ -59,14 +59,14 @@ As queries são as seguintes:
  
  INSERT INTO LIVROS (NOME_DO_LIVRO, NOME_DO_AUTOR, SEXO_DO_AUTOR, NUMERO_DE_PAGINAS,
  NOME_DA_EDITORA, VALOR_DO_LIVRO, UF_DA_EDITORA, ANO_PUBLICACAO) VALUES
- ('Cavaleiro Real','Ana Claudia'),
- ('SQL para leigos','João Nunes'),
- ('Receitas Caseiras','Celia Tavares'),
- ('Pessoas Efetivas','Eduardo Santos'),
- ('Habitos Saudáveis','Eduardo Santos'),
- ('A Casa Marrom','Hermes Macedo'),
- ('Estacio Querido','Geraldo Francisco'),
- ('Pra sempre amigas','Leda Silva'),
- ('Copas Inesqueciveis','Marco Alcantara'),
- ('O poder da mente','Clara Mafra');
+ ('Cavaleiro Real','Ana Claudia',465,'Atlas'),
+ ('SQL para leigos','João Nunes',450,'Addison'),
+ ('Receitas Caseiras','Celia Tavares',210,'Atlas'),
+ ('Pessoas Efetivas','Eduardo Santos',390,'Beta'),
+ ('Habitos Saudáveis','Eduardo Santos',630,'Beta'),
+ ('A Casa Marrom','Hermes Macedo',250,'Bubba'),
+ ('Estacio Querido','Geraldo Francisco'310,'Insignia',),
+ ('Pra sempre amigas','Leda Silva',510,'Insignia'),
+ ('Copas Inesqueciveis','Marco Alcantara',200,'Larson'),
+ ('O poder da mente','Clara Mafra',120,'Continital');
  
