@@ -32,3 +32,14 @@ USE LIVRARIA;
  ('Pra sempre amigas','Leda Silva','FEMININO',510,'Insignia',78.98,'ES',2011),
  ('Copas Inesqueciveis','Marco Alcantara','MASCULINO',200,'Larson',130.98,'RS',2018),
  ('O poder da mente','Clara Mafra','FEMININO',120,'Continital',56.58,'RS',2017);
+ 
+  /* Queries á tabela LIVROS */
+ 
+ /* Trazer todos os dados */
+ SELECT * FROM LIVROS;
+ 
+ /* Trazer o nome do livro e o nome da editora */
+ SELECT NOME_DO_LIVRO, NOME_DA_EDITORA FROM LIVROS;
+ 
+ /*Trazer o nome do livro e a UF dos livros publicados por autores do sexo masculino.*/
+ SELECT NOME_DO_LIVRO, UF_DA_EDITORA FROM LIVROS WHERE SEXO_DO_AUTOR = 'MASCULINO';
