@@ -33,12 +33,25 @@ USE LIVRARIA;
  ('Copas Inesqueciveis','Marco Alcantara','MASCULINO',200,'Larson',130.98,'RS',2018),
  ('O poder da mente','Clara Mafra','FEMININO',120,'Continital',56.58,'RS',2017);
  
-/* Queries á tabela LIVROS */
- /* Trazer todos os dados */
+ USE LIVRARIA; 
+ 
+ /* Queries á tabela LIVROS */
+ 
+ /* 1 – Trazer todos os dados. */
  SELECT * FROM LIVROS;
  
- /* Trazer o nome do livro e o nome da editora */
+ /* 2 – Trazer o nome do livro e o nome da editora */
  SELECT NOME_DO_LIVRO, NOME_DA_EDITORA FROM LIVROS;
  
- /*Trazer o nome do livro e a UF dos livros publicados por autores do sexo masculino.*/
+ /* 3 – Trazer o nome do livro e a UF dos livros publicados por autores do sexo masculino..*/
  SELECT NOME_DO_LIVRO, UF_DA_EDITORA FROM LIVROS WHERE SEXO_DO_AUTOR = 'MASCULINO';
+ 
+ /* 4 - Trazer o nome do livro e o número de páginas dos livros publicados por autores do sexo feminino.*/
+SELECT 	NOME_DO_LIVRO, NUMERO_DE_PAGINAS FROM LIVROS WHERE SEXO_DO_AUTOR = 'FEMININO';	
+
+/* 5 – Trazer os valores dos livros das editoras de São Paulo. */
+SELECT * FROM LIVROS WHERE UF_DA_EDITORA = 'SP';
+
+/*6 – Trazer os dados dos autores do sexo masculino que tiveram livros publicados por São Paulo ou Rio de Janeiro (Questão Desafio).*/
+
+SELECT * FROM LIVROS WHERE SEXO_DO_AUTOR = 'MASCULINO' AND UF_DA_EDITORA = 'SP' OR UF_DA_EDITORA = 'RJ';
