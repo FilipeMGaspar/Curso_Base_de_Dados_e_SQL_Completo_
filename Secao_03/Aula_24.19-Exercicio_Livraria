@@ -87,3 +87,7 @@ SELECT 	NOME_DO_LIVRO, NUMERO_DE_PAGINAS FROM LIVROS WHERE SEXO_DO_AUTOR = 'FEMI
 
 /* 5 – Trazer os valores dos livros das editoras de São Paulo. */
 SELECT * FROM LIVROS WHERE UF_DA_EDITORA = 'SP';
+
+/*6 – Trazer os dados dos autores do sexo masculino que tiveram livros publicados por São Paulo ou Rio de Janeiro (Questão Desafio).*/
+
+SELECT * FROM LIVROS WHERE SEXO_DO_AUTOR = 'MASCULINO' AND UF_DA_EDITORA = 'SP' OR UF_DA_EDITORA = 'RJ';
